@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rang Barse 2026</title>
+  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon">
 
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -66,7 +67,7 @@
       </div>
 
       <!-- CTA -->
-      <a href="#tickets"
+      <a href="#payment"
          class="inline-block mt-10 px-10 py-4 border-2 border-white 
          text-white font-semibold tracking-wide rounded-lg 
          backdrop-blur-md bg-white/5
@@ -233,29 +234,45 @@
 </section>
 
 <!-- PAYMENT SECTION -->
-<section class="py-24 bg-[#0f172a] text-white text-center">
+<section id="payment" class="py-24 bg-[#0f172a] text-white text-center">
+  
   <div class="max-w-4xl mx-auto px-6">
 
     <h2 class="text-3xl md:text-4xl font-bold mb-6">
       Complete Your Payment
     </h2>
 
-    <p class="text-gray-300 mb-10">
-      Scan the QR code below and complete the payment before filling the form.
+    <p class="text-gray-300 mb-6">
+      Please calculate the total amount based on your selected pass and quantity.
+      Complete the full payment in a <strong>single transaction</strong> before filling the registration form.
     </p>
 
-    <div class="flex justify-center mb-10">
-      <img src="qr.jpeg" alt="Payment QR"
-           class="w-72 md:w-72 rounded-2xl shadow-2xl">
+    <div class="bg-white/5 backdrop-blur-md border border-white/10 rounded-2xl p-6 md:p-8 inline-block mb-10">
+      <p class="text-sm text-gray-300 mb-3">Step 1</p>
+      <p class="mb-4 text-gray-200">
+        Scan the QR code below and complete the payment.
+      </p>
+
+      <div class="flex justify-center mb-6">
+        <img src="qr.jpeg" alt="Payment QR"
+             class="w-72 md:w-72 rounded-xl shadow-2xl">
+      </div>
+
+      <p class="text-lg font-semibold">
+        More’s Solution
+      </p>
+
+      <p class="text-base mt-2 text-gray-300">
+        UPI ID: 
+        <span class="font-semibold text-white">
+          QR919742708708-4330@unionbankofindia
+        </span>
+      </p>
+
+      <p class="text-sm text-gray-400 mt-4">
+        Step 2: After payment, click on <strong>Register Now</strong> and enter your UTR number.
+      </p>
     </div>
-
-    <p class="text-xl font-semibold">
-      More’s Solution
-    </p>
-
-    <p class="text-lg font-semibold">
-      UPI ID: QR919742708708-4330@unionbankofindia
-    </p>
 
   </div>
 </section>
